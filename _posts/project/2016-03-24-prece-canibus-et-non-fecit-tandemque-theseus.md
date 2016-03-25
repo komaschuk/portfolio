@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Prece canibus et non fecit tandemque Theseus"
+title:  "Project 3"
 date:   2016-03-24 14:00:22 +0200
 categories: project
+featured_image: "images/project.png"
 tags: snippet
 ---
 
