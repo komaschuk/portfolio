@@ -4,7 +4,7 @@ title:  "Project 2"
 date:   2016-03-24 13:00:22 +0200
 categories: project
 featured: true
-featured_image: "images/project.png"
+featured_image: "/images/project.png"
 tags: layout
 ---
 
