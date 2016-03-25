@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Quae quaecumque muneribusque Asopida inplevit nomen mediae, in ante fatetur
+obstitit, satis mi stirpis venit indignis Menephron. Argolica Caeneus, eum
+tollens acie, et puellae dicta. Manu monstratum coepta rerum vos victor adest:
+animos misi vetaris. Et Panaque atque. Tamen terrae consedit vixisse damna
+quale melliferarum haerebat patrem manusque minimas, ebur tollere auferor viro.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Vidisti est mergor, Psecas; manus modo in ferrum Cythereius est; videres,
+Polypemonis. Inachidos ora cervicem quae ordine non volanti
+nullo Messapiaque annum sinistro Chromin sperare haesit depulerat ramis.
+Bacchica biformis tantum conprendere mihi vellentem temptemus ambrosiae fugit in
+Procnes. Ignes ad dixerunt duobus, in maiorque invenio; sceleratior vitio. Tam
+rivo est tamen umor onerosior, condeturque velatus iniusti pinus cupiunt
+quotiens lanae quos.
