@@ -20,7 +20,7 @@ $h4-font-size:24px;
 
 $spacing-unit:     30px;
 
-$text-color:       #333;
+$text-color:       #333333;
 $background-color: #fefef3;
 $brand-color:      #fe5f55;
 
@@ -60,5 +60,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "gradient-bar"
 ;
