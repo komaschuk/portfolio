@@ -4,6 +4,7 @@ title:  "Quos forte animam queror"
 date:   2016-03-21 13:00:22 +0200
 categories: jekyll update
 featured: true
+tags: design
 ---
 
 ## Unda vera sua victam accipit inopino moenibus

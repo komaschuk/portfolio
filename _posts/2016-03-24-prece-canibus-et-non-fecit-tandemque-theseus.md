@@ -3,6 +3,7 @@ layout: post
 title:  "Prece canibus et non fecit tandemque Theseus"
 date:   2016-03-24 14:00:22 +0200
 categories: jekyll update
+tags: snippet
 ---
 
 ## Plus visus quos verba munere
