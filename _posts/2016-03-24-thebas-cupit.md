@@ -3,6 +3,7 @@ layout: post
 title:  "Thebas cupit"
 date:   2016-03-24 13:00:22 +0200
 categories: jekyll update
+featured: true
 ---
 
 ## Et dilexit languere nec sulcat instar annos
