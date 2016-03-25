@@ -2,7 +2,7 @@
 layout: post
 title:  "Nominis sortem virorum"
 date:   2016-03-19 13:00:22 +0200
-categories: jekyll update
+categories: blog
 tags: code
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Thebas cupit"
 date:   2016-03-24 13:00:22 +0200
-categories: jekyll update
+categories: blog
 featured: true
 tags: layout
 ---
