@@ -11,7 +11,7 @@ email: elfi_8@mail.ru
 description: > # this means to ignore newlines until "baseurl:"
   Freelance web developer, specialising in Jekyll, HTML, CSS and Javascript.
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://komaschuk.github.io" # the base hostname & protocol for your site
 
 twitter_username: komaschuk
 github_username:  komaschuk
