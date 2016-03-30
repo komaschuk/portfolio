@@ -20,13 +20,13 @@ permalink: /:categories/:title
 
 links:
   - title: about
-    url: /about
+    url: about
   - title: work
-    url: /work
+    url: work
   - title: articles
-    url: /articles
+    url: articles
   - title: hire me
-    url: /hire-me
+    url: hire-me
 
 # Build settings
 markdown: kramdown
