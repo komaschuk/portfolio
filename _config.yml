@@ -15,6 +15,7 @@ url: "http://komaschuk.github.io" # the base hostname & protocol for your site
 
 twitter_username: komaschuk
 github_username:  komaschuk
+linkedin_username:  komaschuk
 
 permalink: /:categories/:title
 
