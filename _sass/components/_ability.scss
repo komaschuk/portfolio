@@ -34,13 +34,15 @@
 }
 
 $abilities: (
-	'photoshop': 95,
-	'illustrator': 80,
-	'ui': 90,
-	'html': 95,
-	'css': 95,
-	'jekyll': 99,
-	'git': 100
+	'html5': 95,
+	'css3': 85,
+	'jquery': 75,
+	'js': 70,
+	'bootstrap': 80,
+	'jekyll': 70,
+	'sass': 75,
+	'git': 90,
+	'gulp': 70
 );
 
 @each $ability, $score in $abilities {
