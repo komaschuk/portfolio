@@ -441,119 +441,93 @@ pre {
     background: #fe5f55;
     z-index: -1; }
 
-@keyframes show-ability-html5 {
+@keyframes show-ability-photoshop {
   from {
     width: 0; }
   to {
     width: 95%; } }
-.ability-html5:before {
+.ability-photoshop:before {
   content: "95";
   left: 95%; }
-.ability-html5:after {
+.ability-photoshop:after {
   animation: easy-in-out 1s 2s 1;
   animation-fill-mode: forwards;
   width: 95%; }
 
-@keyframes show-ability-css3 {
-  from {
-    width: 0; }
-  to {
-    width: 85%; } }
-.ability-css3:before {
-  content: "85";
-  left: 85%; }
-.ability-css3:after {
-  animation: easy-in-out 1s 2s 1;
-  animation-fill-mode: forwards;
-  width: 85%; }
-
-@keyframes show-ability-jquery {
-  from {
-    width: 0; }
-  to {
-    width: 75%; } }
-.ability-jquery:before {
-  content: "75";
-  left: 75%; }
-.ability-jquery:after {
-  animation: easy-in-out 1s 2s 1;
-  animation-fill-mode: forwards;
-  width: 75%; }
-
-@keyframes show-ability-js {
-  from {
-    width: 0; }
-  to {
-    width: 70%; } }
-.ability-js:before {
-  content: "70";
-  left: 70%; }
-.ability-js:after {
-  animation: easy-in-out 1s 2s 1;
-  animation-fill-mode: forwards;
-  width: 70%; }
-
-@keyframes show-ability-bootstrap {
+@keyframes show-ability-illustrator {
   from {
     width: 0; }
   to {
     width: 80%; } }
-.ability-bootstrap:before {
+.ability-illustrator:before {
   content: "80";
   left: 80%; }
-.ability-bootstrap:after {
+.ability-illustrator:after {
   animation: easy-in-out 1s 2s 1;
   animation-fill-mode: forwards;
   width: 80%; }
+
+@keyframes show-ability-ui {
+  from {
+    width: 0; }
+  to {
+    width: 90%; } }
+.ability-ui:before {
+  content: "90";
+  left: 90%; }
+.ability-ui:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 90%; }
+
+@keyframes show-ability-html {
+  from {
+    width: 0; }
+  to {
+    width: 95%; } }
+.ability-html:before {
+  content: "95";
+  left: 95%; }
+.ability-html:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 95%; }
+
+@keyframes show-ability-css {
+  from {
+    width: 0; }
+  to {
+    width: 95%; } }
+.ability-css:before {
+  content: "95";
+  left: 95%; }
+.ability-css:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 95%; }
 
 @keyframes show-ability-jekyll {
   from {
     width: 0; }
   to {
-    width: 70%; } }
+    width: 99%; } }
 .ability-jekyll:before {
-  content: "70";
-  left: 70%; }
+  content: "99";
+  left: 99%; }
 .ability-jekyll:after {
   animation: easy-in-out 1s 2s 1;
   animation-fill-mode: forwards;
-  width: 70%; }
-
-@keyframes show-ability-sass {
-  from {
-    width: 0; }
-  to {
-    width: 75%; } }
-.ability-sass:before {
-  content: "75";
-  left: 75%; }
-.ability-sass:after {
-  animation: easy-in-out 1s 2s 1;
-  animation-fill-mode: forwards;
-  width: 75%; }
+  width: 99%; }
 
 @keyframes show-ability-git {
   from {
     width: 0; }
   to {
-    width: 90%; } }
+    width: 100%; } }
 .ability-git:before {
-  content: "90";
-  left: 90%; }
+  content: "100";
+  left: 100%; }
 .ability-git:after {
   animation: easy-in-out 1s 2s 1;
   animation-fill-mode: forwards;
-  width: 90%; }
-
-@keyframes show-ability-gulp {
-  from {
-    width: 0; }
-  to {
-    width: 70%; } }
-.ability-gulp:before {
-  content: "70";
-  left: 70%; }
-.ability-gulp:after {
-  animation: easy-in-out 1s 2s 1;
-  animation-fill-mode: forwards;
-  width: 70%; }
+  width: 100%; }
