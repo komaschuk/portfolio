@@ -416,9 +416,9 @@ pre {
 
 .abilities {
   list-style: none;
-  max-width: 1.5em 0; }
+  margin: 1.5em 0; }
   .abilities li {
-    margin: 0.5em;
+    margin-bottom: 0.5em;
     padding: 0.5em 1em;
     color: #fff; }
 
@@ -428,15 +428,106 @@ pre {
     position: absolute;
     content: ""; }
   [class^="ability-"]:before {
-    content: "50";
+    content: "";
     top: 0.5em;
     margin-left: -2em;
     text-align: right;
-    content: #fff; }
+    color: #fff; }
   [class^="ability-"]:after {
     top: 0;
     left: 0;
     height: 100%;
-    width: 50%;
+    width: 0;
     background: #fe5f55;
     z-index: -1; }
+
+@keyframes show-ability-photoshop {
+  from {
+    width: 0; }
+  to {
+    width: 95%; } }
+.ability-photoshop:before {
+  content: "95";
+  left: 95%; }
+.ability-photoshop:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 95%; }
+
+@keyframes show-ability-illustrator {
+  from {
+    width: 0; }
+  to {
+    width: 80%; } }
+.ability-illustrator:before {
+  content: "80";
+  left: 80%; }
+.ability-illustrator:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 80%; }
+
+@keyframes show-ability-ui {
+  from {
+    width: 0; }
+  to {
+    width: 90%; } }
+.ability-ui:before {
+  content: "90";
+  left: 90%; }
+.ability-ui:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 90%; }
+
+@keyframes show-ability-html {
+  from {
+    width: 0; }
+  to {
+    width: 95%; } }
+.ability-html:before {
+  content: "95";
+  left: 95%; }
+.ability-html:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 95%; }
+
+@keyframes show-ability-css {
+  from {
+    width: 0; }
+  to {
+    width: 95%; } }
+.ability-css:before {
+  content: "95";
+  left: 95%; }
+.ability-css:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 95%; }
+
+@keyframes show-ability-jekyll {
+  from {
+    width: 0; }
+  to {
+    width: 99%; } }
+.ability-jekyll:before {
+  content: "99";
+  left: 99%; }
+.ability-jekyll:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 99%; }
+
+@keyframes show-ability-git {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+.ability-git:before {
+  content: "100";
+  left: 100%; }
+.ability-git:after {
+  animation: easy-in-out 1s 2s 1;
+  animation-fill-mode: forwards;
+  width: 100%; }
