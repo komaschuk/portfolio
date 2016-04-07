@@ -9,7 +9,6 @@ tags: code
 ## Turnus Phrygum credulus
 
 Lorem markdownum quam, morari dextris. Illi furtique volucris curalium olivae
-iniuste Semelen premit haec: male inque et ille. Hinc accedere, patet, onusque,
 me si suasit moneri elatumque: posita?
 
 ## At consorte Romam
