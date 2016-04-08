@@ -44,8 +44,7 @@ massa dixit, o qui lancea, cum?
 
 
 Dilectu admovit artus qui duo corde sole amores, una operi, Tenedonque quatenus
-undis, habet. Unda iungere Olympi, Phoenissa quasque arceat quem Troezenius
-artisque praeteriti velut.
+undis, habet.
 
 Quam formaque e Aetne viribus, fecit, mutavit invisosque auro terque. Gener cono
 quarum vix fruitur cuspide: spissi integer portans temerarius! Parabat his et
