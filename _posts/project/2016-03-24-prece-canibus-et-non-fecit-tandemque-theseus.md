@@ -42,7 +42,7 @@ massa dixit, o qui lancea, cum?
 
 ## Sine frondem servavit debebat coniunx etiam Clarium
 
-Suos dei nec semper mensura; quo iunget rupit lacubus nunc vox spoliat a detur.
+
 Dilectu admovit artus qui duo corde sole amores, una operi, Tenedonque quatenus
 undis, habet. Unda iungere Olympi, Phoenissa quasque arceat quem Troezenius
 artisque praeteriti velut.
