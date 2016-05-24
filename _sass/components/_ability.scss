@@ -39,10 +39,10 @@ $abilities: (
 	'jquery': 75,
 	'js': 70,
 	'bootstrap': 80,
-	'jekyll': 70,
+	'jekyll': 90,
 	'sass': 75,
-	'git': 90,
-	'gulp': 70
+	'git': 95,
+	'gulp': 50
 );
 
 @each $ability, $score in $abilities {
