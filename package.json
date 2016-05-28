@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,12 +15,5 @@
   "bugs": {
     "url": "https://github.com/komaschuk/portfolio/issues"
   },
-  "homepage": "https://github.com/komaschuk/portfolio#readme",
-  "dependencies": {
-    "coriolan-ui": "^0.1.14"
-  },
-  "devDependencies": {
-    "gulp-install": "^0.6.0"
-  },
-  "description": ""
+  "homepage": "https://github.com/komaschuk/portfolio#readme"
 }
