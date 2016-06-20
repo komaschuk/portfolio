@@ -1,54 +1,58 @@
 .post-list {
-	@extend %clearfix;
-	list-style: none;
+    @extend %clearfix;
+    list-style: none;
 }
 .post {
-	float: left;
-	width: 50%;
-	padding: 0 3em 1em;
+    float: left;
+    width: 50%;
+    padding: 0 3em 1em;
 
-	&:nth-child(odd) {
-		clear: both;
-	}
+    &:nth-child(odd) {
+        clear: both;
+    }
+}
+.post-img {
+    max-width: 200px;
+    border-radius: 50%;
 }
 .post-read-more-link {
-	text-align: center;
+    text-align: center;
 }
 
 .post-featured {
-	float: none;
-	margin: 0 auto;
+    float: none;
+    margin: 0 auto;
 }
 
 .post-tags {
-	margin-left: 0;
-	min-height: 50px;
-	text-align: center;
+    margin-left: 0;
+    min-height: 50px;
+    text-align: center;
 
-	li {
-		display: inline;
-	}
+    li {
+        display: inline;
+    }
 }
 
 // Single post page
 
 .post-header {
-	text-align: center;
+    text-align: center;
 }
 .post-title {
-	margin: 0;
+    margin: 0;
 }
 .post-meta {
-	color: $blue-color;
-	font-size: $h4-font-size;
+    color: $blue-color;
+    font-size: $h4-font-size;
 }
 .post-body {
-	width: 90%;
-	max-width: 40em;
-	margin: $h2-font-size auto;
+    width: 90%;
+    max-width: 40em;
+    margin: $h2-font-size auto;
 
-	h1, h2, h3, h4 {
-		max-width: 80%;
-		margin: $h2-font-size auto;
-	}
+    h1, h2, h3, h4 {
+        max-width: 80%;
+        margin: $h2-font-size auto;
+    }
 }
