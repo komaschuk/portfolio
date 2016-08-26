@@ -20,7 +20,3 @@ links:
     url: articles
   - title: hire me
     url: hire-me
-
-# Build settings
-baseurl: ''
-exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json', 'CNAME']
