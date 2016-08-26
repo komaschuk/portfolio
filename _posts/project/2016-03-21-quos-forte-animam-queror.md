@@ -4,7 +4,7 @@ title:  "Project 1"
 date:   2016-03-21 13:00:22 +0200
 categories: project
 featured: true
-featured_image: "/assets/img/project.png"
+featured_image: "assets/img/project.png"
 tags: design
 ---
 

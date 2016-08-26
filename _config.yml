@@ -1,18 +1,16 @@
 # Site settings
 title: Portfolio
 email: elfi_8@mail.ru
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Freelance web developer, specialising in Jekyll, HTML, CSS and Javascript.
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "http://komaschuk.github.io" # the base hostname & protocol for your site
+baseurl: "/portfolio"
+url: "http://komaschuk.github.io"
 
 linkedin_username: komaschuk
 twitter_username: komaschuk
 github_username: komaschuk
 
-
-permalink: /:categories/:title
-
+# permalink: /:categories/:title
 links:
   - title: about
     url: about
@@ -24,7 +22,5 @@ links:
     url: hire-me
 
 # Build settings
-markdown: kramdown
 baseurl: ''
-include: ['_pages']
 exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json', 'CNAME']
