@@ -25,4 +25,6 @@ links:
 
 # Build settings
 markdown: kramdown
-exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']
+baseurl: ''
+include: ['_pages']
+exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json', 'CNAME']

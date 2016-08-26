@@ -1,0 +1,22 @@
+.footer {
+    padding: 2em 0;
+    color: #fff;
+    background: $grey-color-dark;
+
+    &__content {
+        float: left;
+        width: 40%;
+        font-size: 0.875em;
+
+        h3 {
+            text-align: left;
+        }
+    }
+
+    &__social {
+        float: right;
+        li {
+            display: inline-block;
+        }
+    }
+}

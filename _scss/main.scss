@@ -1,0 +1,20 @@
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+// Variables
+@import '_var';
+
+// Vendor
+@import '../node_modules/coriolan-ui/coriolan-ui';
+
+// UX
+@import '_base';
+@import '_layout';
+@import '_syntax-highlighting';
+@import 'components/_post';
+@import 'components/_project';
+@import 'components/_ability';
+@import '_includes/Header/style';
+@import '_includes/Footer/style';

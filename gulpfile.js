@@ -4,19 +4,7 @@ var gulp = require('gulp'),
     prefix = require('gulp-autoprefixer'),
     cp = require('child_process'),
     concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
-    spritesmith = require('gulp.spritesmith');
-
-/* Payments Sprite */
-gulp.task('sprite', function () {
-  var spriteData = gulp.src('assets/img/payments/*.png').pipe(spritesmith({
-    imgName: 'sprite-payments.png',
-    imgPath: '../img/sprites/sprite-payments.png',
-    cssName: '../../../_scss/vendor/_sprite.scss',
-    padding: 12
-  }));
-  return spriteData.pipe(gulp.dest('assets/img/sprites/'));
-});
+    uglify = require('gulp-uglify');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -36,7 +24,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 });
 
 /* Wait for jekyll-build, then launch the Server */
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -55,11 +43,11 @@ gulp.task('sass', function () {
         .pipe(prefix(['last 2 versions', 'ie 8', 'ie 9'], { cascade: true }))
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('assets/css'));
+        .pipe(gulp.dest('assets/css/'));
 });
 
 /* Js */
-gulp.task('jsConcat', function() {
+gulp.task('jsConcat', ['sass'], function() {
     return gulp.src([
             'assets/js/vendor/*',
             'assets/js/common/*'
@@ -75,8 +63,11 @@ gulp.task('jsMin', ['jsConcat'], function() {
 });
 
 /* Watch scss files for changes & recompile, watch html/md files, run jekyll & reload BrowserSync */
-gulp.task('watch', ['jsMin'], function () {
-    gulp.watch('_scss/**/*', ['sass']);
+gulp.task('watch', ['jsMin', 'browser-sync'], function () {
+    gulp.watch([
+        '_scss/*.scss',
+        '_includes/**/*.scss',
+        ], ['sass']);
     gulp.watch([
             '_layouts/*.html',
             '_includes/**/*.html',
@@ -91,4 +82,5 @@ gulp.task('watch', ['jsMin'], function () {
 });
 
 /* Default task, running just `gulp` will compile the sass, compile the jekyll site, launch BrowserSync & watch files. */
-gulp.task('default', ['browser-sync', 'watch']);
+// gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', ['sass', 'jekyll-build']);

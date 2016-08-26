@@ -1,0 +1,18 @@
+<div class="header">
+    <nav class="header__nav">
+        <ul class="header__list">
+        {% for link in site.links %}
+            <li class="header__item">
+                <!-- <a class="header__links" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a> -->
+            </li>
+        {% endfor %}
+        </ul>
+    </nav>
+
+    <div class="header__gradient-bar">
+        <h1 class="header__title">
+            <a href="{{ site.baseurl }}/">portfolio</a>
+        </h1>
+    </div>
+
+</div>
