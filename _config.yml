@@ -10,7 +10,7 @@ linkedin_username: komaschuk
 twitter_username: komaschuk
 github_username: komaschuk
 
-permalink: /:categories/:title
+# permalink: /:categories/:title
 links:
   - title: about
     url: about
